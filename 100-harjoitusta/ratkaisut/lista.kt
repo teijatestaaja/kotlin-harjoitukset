@@ -1,4 +1,5 @@
 fun main() {
+    // Tehtävä 1
     val listOfStrings: MutableList<String> = mutableListOf("omena", "päärynä", "banaani")
     listOfStrings.add("vesimeloni")
     println(listOfStrings)
