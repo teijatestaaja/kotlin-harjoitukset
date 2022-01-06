@@ -20,7 +20,7 @@ Käytä muuttuvaa listaa, jos tarvitset muuttuvan taulukon.
 Opittua: Taulukon voi muuntaa listaksi Collectionin asList-funktiolla. Sorted-funktio palauttaa listan järjestettynä.
 ```
 
-5. Tarkasta, onko taulukossa kaksoiskappaleita. [Ratkaisu](ratkaisut/taulukko.kt). Lisätietoa: [distict](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/distinct.html)
+4. Tarkasta, onko taulukossa kaksoiskappaleita. [Ratkaisu](ratkaisut/taulukko.kt). Lisätietoa: [distict](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/distinct.html)
 
 ```
 Opittua: Kotlinilla on distinct-funktio, joka palauttaa listan taulukossa olevista erillisistä elementeistä.
