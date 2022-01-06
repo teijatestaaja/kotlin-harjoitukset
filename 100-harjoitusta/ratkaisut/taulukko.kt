@@ -24,9 +24,10 @@ fun main() {
         println("taulukossa oli toistuvia elementtejä")
     else
         println("taulukossa ei ollut toistuvia elementtejä")
-        
+
     if (arrayOfIntegers.size != arrayOfIntegers.distinct().count())
         println("taulukossa oli toistuvia elementtejä")
     else
         println("taulukossa ei ollut toistuvia elementtejä")
+        
 }
