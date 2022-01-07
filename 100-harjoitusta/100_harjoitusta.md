@@ -13,7 +13,9 @@ add-funktio ei ole käytettävissä muuttumattomalle listalle, mutta se on käyt
 1.2. Tarkasta, onko lista tyhjä tai null. [Ratkaisu](ratkaisut/lista.kt). Lisätietoa: [isNullOrEmpty](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/is-null-or-empty.html), [null safety](https://kotlinlang.org/docs/null-safety.html#safe-calls)
 
 ```
-Opittua: Kotlinissa kokoelmilla on isNullOrEmpty-funktio, jonka avulla voi tehdä null- ja tyhjän arvon tarkastuksen. Lisäksi voi käyttää turvallisen kutsun operaattoria ?.
+Opittua: Kotlinissa kokoelmilla on isNullOrEmpty-funktio, jonka avulla voi tehdä null- ja tyhjän arvon tarkastuksen. 
+
+Lisäksi voi käyttää turvallisen kutsun operaattoria ?.
 ```
 
 ## 2. Taulukko
