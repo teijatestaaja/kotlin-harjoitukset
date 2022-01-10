@@ -30,4 +30,17 @@ fun main() {
     else
         println("taulukossa ei ollut toistuvia elementtejä")
         
+    // Tehtävä 2.4
+    val hedelma1 = "omena"
+    val hedelma2 = "granaattiomena"
+    println(arrayOfStrings.contains(hedelma1))            // true
+    println(arrayOfStrings.contains(hedelma2))            // false
+    println(arrayOfStrings.asList().contains(hedelma1))   // true
+    println(arrayOfStrings.asList().contains(hedelma2))   // false
+    println(arrayOfStrings.indexOf(hedelma1))             // palauttaa  0 eli paikan taulukossa
+    println(arrayOfStrings.indexOf(hedelma2))             // palauttaa -1 koska ei ole taulukossa
+    println(hedelma1 in arrayOfStrings)                   // true
+    println(hedelma2 in arrayOfStrings)                   // false
+    println(arrayOfStrings.filter { x: String -> x == hedelma1 }.count() > 0)  // true
+    println(arrayOfStrings.filter { x: String -> x == hedelma2 }.count() > 0)  // false
 }

@@ -39,3 +39,11 @@ Opittua: Taulukon voi muuntaa listaksi Collectionin asList-funktiolla. Sorted-fu
 ```
 Opittua: Kotlinilla on distinct-funktio, joka palauttaa listan taulukossa olevista erillisistä elementeistä.
 ```
+
+2.4 Tarkasta, sisältääkö taulukko tietyn arvon. [Ratkaisu](ratkaisut/taulukko.kt). Lisätietoa: [Taulukon contains](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/contains.html), [indexOf](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/index-of.html), [Listan contains](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/contains.html), [in operaattori](https://kotlinlang.org/docs/keyword-reference.html#hard-keywords), [filter](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/filter.html)
+
+```
+Opittua: Taulukon sisältöä voidaan tutkia taulukon contains-funktiota tai 
+muuttamalla taulukko listaksi ja käyttämällä listan contains-funktiota.
+Lisäksi voidaan käyttää taulukon indexOf-funktiota, Kotlinin in operaattoria tai filter-funktiota.
+```
